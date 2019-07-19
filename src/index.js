@@ -15,8 +15,5 @@ const liste =
 
 </ul>
 ;
-
-ReactDOM.render(
-    test,
-    document.getElementById('root')
-);
+const domContainer = document.querySelector("root")
+ReactDOM.render(liste,document.getElementById("root"));
