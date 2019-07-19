@@ -1,5 +1,6 @@
-const liste =
-<h1>WeLoveDev :</h1>
+const liste = () =>
+<>
+    <h1>WeLoveDev :</h1>
 <ul>
   <li>Damien Cavaillès - Co-founder</li>
   <li>Vincent Cotro - Co-founder</li>
@@ -14,6 +15,6 @@ const liste =
   <li>Valentin Nortier - le mec qui essaye</li>
 
 </ul>
-;
-const domContainer = document.querySelector("root")
-ReactDOM.render(liste,document.getElementById("root"));
+</>
+
+ReactDOM.render(liste ,document.getElementById("root"));
