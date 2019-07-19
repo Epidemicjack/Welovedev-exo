@@ -1,8 +1,3 @@
-ReactDOM.render(
-    test,
-    document.getElementById('root')
-);
-
 const liste =
 <h1>WeLoveDev :</h1>
 <ul>
@@ -20,3 +15,8 @@ const liste =
 
 </ul>
 ;
+
+ReactDOM.render(
+    test,
+    document.getElementById('root')
+);
